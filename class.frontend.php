@@ -32,7 +32,7 @@ class NotifyFront {
         wp_enqueue_script('notify_notificationFx', NOTIFYIT_PLUGIN_URL . 'js/notificationFx.js', array(), NOTIFYIT_VERSION, true);
         wp_enqueue_script('notify_script', NOTIFYIT_PLUGIN_URL . 'js/script.js', array(), NOTIFYIT_VERSION, true);
 
-        wp_localize_script('notify_script', 'notify_options', self::$options);
+        wp_localize_script('notify_script', 'notify_options', self::$options); 
     }
 
     public static function add_style_frontend()
