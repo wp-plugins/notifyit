@@ -1,5 +1,5 @@
 === Notifyit ===
-Contributors: Sharif, Razib, Rubel, Nadim
+Contributors: Sharif, Razib, Ashraful, Nadim
 Tags: notifyit, notification
 Requires at least: 3.1
 Tested up to: 4.1
